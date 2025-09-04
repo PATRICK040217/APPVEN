@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.login-box {
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px;
+  background-color: #d6001c;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.login-box input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 95%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: black;
+}
+
+header button {
+  padding: 8px 12px;
+  background: #d6001c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: #a50015;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #d6001c;
+  color: white;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 10px 15px;
+  background: #d6001c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: #a50015;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: yellow;
+  font-size: 0.9em;
+}
